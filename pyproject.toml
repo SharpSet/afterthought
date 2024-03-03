@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "afterthought"
+version = "0.2.0"
+description = ""
+authors = ["Sharpz7 <adam.mcarthur62@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
