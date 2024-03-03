@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "afterthought"
-version = "0.3.0"
+version = "0.4.0"
 description = ""
 authors = ["Sharpz7 <adam.mcarthur62@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+debugpy = "^1.8.1"
 
 
 [build-system]
