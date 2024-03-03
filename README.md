@@ -31,6 +31,8 @@ if __name__ == "__main__":
 
 ```
 
+You can then connect using any tool that supports https://github.com/microsoft/debugpy
+
 
 ## Function Decorators
 
