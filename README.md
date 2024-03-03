@@ -4,7 +4,7 @@
 
 A [debugpy](https://github.com/microsoft/debugpy) alternative to [pdb.post_mortem()](https://docs.python.org/3/library/pdb.html#pdb.post_mortem) that allows you to attach any debugger to your code after an exception has been raised.
 
-By default it is setup and tested with vscode, but feel free to contribute to add support for other debuggers.
+**By default it is setup and tested with vscode, but feel free to contribute to add support for other debuggers.**
 
 ## Installation
 
