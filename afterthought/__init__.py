@@ -4,12 +4,14 @@ import traceback
 import debugpy
 
 
-def debug(error, port=5678):
+def debug(error=None, port=5678):
     print(f"Waiting for debugger to attach on {port}\n")
     debugpy.listen(5678)
     debugpy.wait_for_client()
-    traceback.print_exc()
-    raise error
+
+    if error is not None:
+        traceback.print_exc()
+        raise error
 
 
 def debug_on_exception(*exceptions):
